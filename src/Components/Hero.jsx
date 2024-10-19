@@ -40,7 +40,7 @@ const Hero = () => {
           </span>
           <TypeAnimation
             sequence={[
-              "Frontend Dev",
+              "MERN Developer",
               1000,
               "Web Designer",
               1000,

@@ -28,34 +28,34 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start">
         {/* Portfolio Section */}
         <motion.div
-          className="mb-4 p-6 w-full md:w-1/2 flex items-center ml-[8rem]" // Made width 1/2 for equal size
+          className="mb-4 p-6 w-full md:w-1/2 flex items-center ml-[8rem]" 
           initial={{ opacity: 0, x: -50 }} // Initial state
-          animate={show ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }} // Animation state based on scroll
+          animate={show ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }} 
           transition={{ duration: 0.5 }}
         >
           <img
-            src="https://github.com/shivaniverma2002.png" // GitHub profile image URL
+            src="https://avatars.githubusercontent.com/u/110262694?s=400&u=074dee79c51f8dafd4acfe8c6f6149c137ccf0ec&v=4" 
             alt="Shivani Verma"
-            className="rounded-full w-32 h-32 mr-6" // Adjust size and margin as needed
+            className="rounded-full w-32 h-32 mr-6" 
           />
           <div className="flex flex-col">
             <h1 className="text-bold text-4xl text-transparent bg-gradient-to-r from-yellow-400 to-pink-500 bg-clip-text mb-2">
-              SHIVANI VERMA
+             ANJALI GUPTA
             </h1>
             <h2 className="text-xl font-semibold">My Portfolio</h2>
-            <p className="text-gray-400 mt-2">React Developer</p>
+            <p className="text-gray-400 mt-2">MERN Developer</p>
             <p className="text-gray-400">
-              Contact: shivaniverma370469@gmail.com
+              Contact: anjligupta4004@gmail.com
             </p>
-            <p className="text-gray-400">Location: Jhansi, 284002</p>
+            <p className="text-gray-400">Location: Jhansi, 284204</p>
           </div>
         </motion.div>
 
         {/* Social Icons Section */}
         <motion.div
-          className="p-6 w-full md:w-1/2 flex flex-col items-start" // Made width 1/2 for equal size
-          initial={{ opacity: 0, x: 50 }} // Initial state
-          animate={show ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }} // Animation state based on scroll
+          className="p-6 w-full md:w-1/2 flex flex-col items-start" 
+          initial={{ opacity: 0, x: 50 }} 
+          animate={show ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-4xl font-bold mb-2 text-transparent bg-gradient-to-r from-yellow-400 to-pink-500 bg-clip-text">
@@ -63,7 +63,7 @@ const Footer = () => {
           </h2>
           <div className="flex flex-col space-y-2">
             <a
-              href="https://www.linkedin.com/in/shivani-verma-aa5904218"
+              href="https://www.linkedin.com/in/anjali-gupta-9a002b226/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 hover:text-yellow-500 transition-colors duration-300"
@@ -72,7 +72,7 @@ const Footer = () => {
               <span>LinkedIn</span>
             </a>
             <a
-              href="https://github.com/shivaniverma2002"
+              href="https://github.com/anjali6387"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 hover:text-pink-500 transition-colors duration-300"
@@ -81,7 +81,7 @@ const Footer = () => {
               <span>GitHub</span>
             </a>
             <a
-              href="https://leetcode.com/u/shivaniverma370469/"
+              href="https://leetcode.com/u/anjali_1001/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 hover:text-yellow-400 transition-colors duration-300"

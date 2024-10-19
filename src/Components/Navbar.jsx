@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="bg-black text-gray-400 h-[100px] max-w-[1200px] mx-auto flex justify-between items-center">
       <h1 className="text-3xl font-bold bg-gradient-to-r from-yellow-500 to-pink-500 bg-clip-text text-transparent ml-4">
-        Shivani Verma
+       Anjali.dev
       </h1>
       <ul className="hidden md:flex">
         {["home", "about", "skills", "projects", "contact"].map((item) => (
@@ -43,7 +43,7 @@ const Navbar = () => {
         }
       >
         <h1 className="text-3xl bg-gradient-to-r from-yellow-500 to-pink-500 bg-clip-text text-transparent m-4">
-          Shivani Verma
+        Anjali.dev
         </h1>
         <ul className="p-8 text-2xl">
           {["home", "about", "skills", "projects", "contact"].map((item) => (
